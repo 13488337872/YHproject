@@ -1,0 +1,296 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+input,
+textarea,
+select,
+td,
+th {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: 0;
+}
+
+
+
+
+
+/* center */
+center{
+	overflow: hidden;
+}
+.center{
+	width: 1150px;
+	margin: 0 auto;
+}
+.center .safety{
+	width: 990px;
+	margin: 0 auto;
+	line-height: 25px;
+	font-size: 11px;
+	color: black;
+	background: #f5f5f5;
+	margin-bottom: 107px;
+}
+.center .safety span{
+	color: red;
+}
+
+
+.login .left{
+	width: 50%;
+	padding: 50px 0;
+    height: 318px;
+    border-right: 1px solid #dfdfdf;
+	float: left;
+	margin-bottom: 107px;
+}
+.login .left img{
+	display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 252px;
+    height: 190px;
+}
+.login .right{
+	float: left;
+    padding-left: 85px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.login .right li{
+	margin-bottom: 25px;
+	list-style: none;
+	position: relative;
+    width: 270px;
+    float: left;
+	margin-left: 0;
+}
+.stateList select{
+	float: left;
+	position: relative;
+	cursor: pointer;
+	padding: 4px 0;
+    width: 132px;
+    height: 30px;
+    border-color: #c1c1c1;
+    color: #9a9a9a;
+    font-size: 16px;
+}
+.enterNum span{
+	display: block;
+    float: left;
+    width: 58px;
+    height: 43px;
+    border: 1px solid #dbdbdb;
+    border-right: 0;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 16px;
+    line-height: 43px;
+}
+.enterNum input{
+	height: 43px;
+	width: 199px;
+	position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+	float: left;
+	padding-left: 10px;
+	border: 1px solid #dbdbdb;
+}
+
+.code{
+	font-size: 13px;
+    line-height: 13px;
+    text-align: left;
+    margin-bottom: 25px;
+    color: #b0b0b0;
+}
+.code a{
+	color: red;
+	float: right;
+}
+.authenCode input:first-child{
+	float: left;
+    width: 118px;
+    margin-right: 10px;
+	height: 47px;
+	padding-left: 10px;
+}
+.authenCode input:last-child{
+	float: left;
+    width: 128px;
+	height: 51px;
+	display: block;
+    background-color: #ff1901;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 46px;
+    cursor: pointer;
+	border: red;
+}
+#pwd{
+	padding: 0;
+    width: 268px;
+    height: 43px;
+    border: 1px solid #dbdbdb;
+    color: #9a9a9a;
+    text-indent: 10px;
+    font-size: 16px;
+    line-height: 43px;
+}
+.reminder{
+	overflow: hidden;
+    margin-top: 5px;
+    width: 270px;
+    height: auto;
+    text-align: right;
+}
+
+.reminder span{
+	padding: 1px 10px;
+    height: 15px;
+    background-color: #e8e8e8;
+    text-align: center;
+    font-size: 12px;
+	margin-right: 10px;
+	color: #808080;
+}
+.reminder span:first-child{
+	background-color: transparent;
+	color: red;
+	float: left;
+	text-align: left;
+}
+.reminder span:last-child{
+	margin-right: 0;
+}
+.privacy p{
+	float: left;
+}
+.privacy p a{
+	margin: 8px 10px 0 0;
+    display: inline-block;
+}
+#regNow input{
+	    width: 270px;
+    font-weight: 700;
+    font-size: 20px;
+    float: left;
+	border: 0;
+	height: 45px;
+	color: #fff;
+	background-color: #555;
+    cursor: pointer;
+}
+.enterNum #registered{
+	display: block;
+    padding-top: 45px;
+	font-size: 12px;
+	text-align: left;
+	color: red;
+	height: 16px;
+}
+
+#regNow .scan{
+	position: absolute;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #b0b0b0;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+}
+#regNow .scan>a{
+	width: 45px;
+    height: 45px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#regNow .scan>a span{
+	width: 28px;
+    height: 28px;
+    background-image: url(../regimg/sprite.passport.png);
+    background-position: -452px -108px;
+    background-size: 595px 298px;
+    display: inline-block;
+    margin-top: 7px;
+}
+.regNowScan{
+	position: absolute;
+    bottom: 0;
+    left: 51px;
+    width: 231px;
+    height: 290px;
+    background-color: #f8f8f8;
+    z-index: 1000;
+    display: none;
+    border: 1px solid #b0b0b0;
+}
+
+#regNow .scan:hover .regNowScan{
+	display: block;
+}
+
+.regNowScan:before{
+	content: "";
+    position: absolute;
+    left: -8px;
+    bottom: 14px;
+    display: inline-block;
+    width: 8px;
+    height: 16px;
+    background-image: url(../regimg/sprite.passport.png);
+    background-position: -323px -156px;
+    background-size: 595px 298px;
+}
+.regNowScan img{
+	margin: 32px auto 15px;
+}
+.regNowScan p{
+	height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+}
+.regNowScan .btm a{
+	text-decoration: none;
+    color: #000;
+    font-size: 14px;
+	margin-top: 6px;
+    line-height: 25px;
+}
+.right .last{
+	text-align: right;
+    white-space: nowrap;
+    font-size: 13px;
+	color: #b9b9b9;
+}
+
+.right .last a{
+	color: #ff1901;
+	text-decoration: underline;
+}
+
+
+
+
+
+

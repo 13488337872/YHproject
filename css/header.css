@@ -1,0 +1,93 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+input,
+textarea,
+select,
+td,
+th {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: 0;
+}
+/* header */
+header{
+	width: 100%;
+	border-bottom: 2px solid #000000;
+	margin-bottom: 30px;
+}
+.header{
+	width: 990px;
+	height: 66px;
+	margin: 0 auto;
+}
+.header a{
+	font-size: 11px;
+	color: #000000;
+	/* line-height: 28px; */
+	text-decoration: none;
+	
+	text-align: center;
+}
+.headerLeft{
+	float: left;
+	margin-top: 13px;
+}
+.headerRight{
+	float: right;
+}
+.headerRight span{
+	margin-top: ;
+	font-size: 11px;
+	float: left;
+	padding:0 10px;
+	line-height: 66px;
+}
+.availa{
+	float: left;
+	position: relative;
+	margin-top: 19px;
+	height: 28px;
+}
+.availa a{
+	display: block;
+	padding: 0 10px;
+	text-align: left;
+	line-height: 28px;
+	vertical-align: middle;
+	
+}
+.availa a img{
+	width: 16px;
+	height: 16px;
+	float: right;
+	vertical-align: middle;
+	padding-top: 5px;
+}
+.topa{
+	display: none;
+}
+
+
+.availa a:hover{
+	background: #808080;
+}
+.availa:hover .collect{
+	display: block;
+}
+.collect{
+	position: absolute;
+	display: none;
+	width: 100%;
+}
